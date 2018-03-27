@@ -1,0 +1,29 @@
+1) to initialize a git repository in the root of the folder, run the git init command - git init
+2) After creating the new file, you can use the git status command to see which files git knows exist.  -  git status
+3) To add a file to a commit  -  git add filename
+4) then to commit -  git commit
+
+
+
+1.git init
+2.git config --global user.name "someone"
+3.git config --global user.email "someone@someplace.com"
+4.git config --global content.editor "pico -w"
+5.git add *
+6.git commit -m "my first commit"
+
+
+5) to create a new branch and to change to that branch -  git checkout -b <my branch name>
+6) to list all the branch - git branch
+
+
+7) Now after creating a new repository on github and to add our local repo to it
+
+git remote add origin https://github.com/cubeton/mynewrepository.git
+
+
+8) Now to push our local repo to github  -  git push -u origin master
+
+9) In order to get the most recent changes that you or others have merged on GitHub  -  git pull origin master
+
+10) to see all new commits - git log
